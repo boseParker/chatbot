@@ -3,7 +3,6 @@ uvicorn
 python-dotenv
 pydantic
 pydantic-settings
-ollama
 langchain
 langchain-community
 langchain-huggingface
