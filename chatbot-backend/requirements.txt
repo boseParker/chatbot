@@ -10,3 +10,4 @@ langchain-chroma
 chromadb
 sentence-transformers
 pypdf
+ollama
