@@ -1,16 +1,38 @@
-# React + Vite
+# Chatbot UI (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive frontend for the TechPoint AI Chatbot, featuring a premium glassmorphism design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Glassmorphism Aesthetic**: Transparent panels, subtle blurs, and vibrant gradients.
+- **Markdown Rendering**: Supports rich text, tables, and code snippets from the AI.
+- **Responsive Layout**: Optimized for both desktop and mobile viewing.
+- **Real-time Interaction**: Seamless chat experience with loading states.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React 19 (Vite)
+- **Styling**: Vanilla CSS with modern flexbox/grid
+- **API Client**: Axios
+- **Markdown**: `react-markdown` with `remark-gfm`
 
-## Expanding the ESLint configuration
+## Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Run Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+3. **Build for Production**:
+   ```bash
+   npm run build
+   ```
+
+## Configuration
+
+The frontend connects to the backend at `http://localhost:8000`. You can modify the API URL in `src/App.jsx` if your backend is running on a different port.
