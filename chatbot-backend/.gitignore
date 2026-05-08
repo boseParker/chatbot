@@ -10,9 +10,7 @@ ENV/
 .env
 
 # Databases
-chroma_db/
 *.db
-*.sqlite3
 
 # Logs
 *.log
