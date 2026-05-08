@@ -38,7 +38,11 @@ A full-stack RAG (Retrieval-Augmented Generation) chatbot designed for "TechPoin
    - Start the dev server: `npm run dev`.
 
 3. **Environment Configuration**:
-   - Ensure you have a `.env` file in `chatbot-backend/` with your `OLLAM_HOST_URL`.
+   - In `chatbot-backend/`, copy `.env.example` to `.env`:
+     ```bash
+     cp .env.example .env
+     ```
+   - Update `OLLAM_HOST_URL` in `.env` if necessary.
 
 ## License
 
