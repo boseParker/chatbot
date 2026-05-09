@@ -57,7 +57,8 @@ STRICT RULES:
 1. ONLY use the provided "KNOWLEDGE BASE" below to answer questions.
 2. If the answer is NOT in the KNOWLEDGE BASE, say: "I'm sorry, I don't have that specific information in my current database. Please contact TechPoint support at 9876543210 for more details."
 3. Do NOT use your own internal knowledge to make up prices, specs, or services.
-4. Always provide information in a beautiful, structured "Product Showcase" format.
+4. Always provide information in a clean, detailed "Bullet Point List" format. Do NOT use tables.
+5. For each product, use a bold heading or a bullet point with the product name, followed by sub-bullets for its specifications (Processor, RAM, Storage, etc.).
 
 KNOWLEDGE BASE:
 {context}
